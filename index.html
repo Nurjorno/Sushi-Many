@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <h1>САЙТ ДЛЯ ТЕЛЕФОНА</h1>
+
+
+    <script>
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+        if (isMobile) {
+            location.replace("mobile.html");
+        } else {
+            location.replace("MainPC.html");
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
